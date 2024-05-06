@@ -11,6 +11,7 @@ import easyocr
 import math
 from sudoku_solver import *
 import copy
+import chromedriver_autoinstaller
 
 
 def custom_find(element, by, string):
@@ -25,6 +26,7 @@ def custom_get(element, link):
     element.get(link)
     time.sleep(2)
 
+chromedriver_autoinstaller.install()
 
 chrome_options = Options()
 chrome_options.page_load_strategy = 'eager'

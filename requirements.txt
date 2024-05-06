@@ -2,3 +2,4 @@ selenium
 numpy
 easyocr
 opencv-python
+chromedriver-autoinstaller
