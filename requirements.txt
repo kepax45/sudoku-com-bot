@@ -1,0 +1,4 @@
+selenium
+numpy
+easyocr
+opencv-python
